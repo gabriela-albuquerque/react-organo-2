@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+#🗂️ Organo - Sistema de Organograma Interativo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi um aprimoramento da versão anterior e foi desenvolvido ao longo de uma formação em React da Alura. A nova versão do Organo inclui um segundo formulário para cadastrar novos times, o recurso de excluir e favoritar colaboradores, além da possibilidade de alterar a cor de um time.
 
-## Available Scripts
+##📋 Descrição e 🛠️ Funcionalidades do Projeto
 
-In the project directory, you can run:
+O Organo é uma aplicação para gerenciar colaboradores em times de trabalho. O usuário pode:
 
-### `npm start`
+📂 Cadastro de Colaboradores
+Permite cadastrar novos colaboradores, informando:
+Nome
+Cargo
+Time de trabalho
+🎨 Personalização de Times
+Alterar a cor de fundo de cada time utilizando um seletor de cores.
+⭐ Favoritar Colaboradores
+Marcar colaboradores como favoritos, destacando-os visualmente na interface.
+🗑️ Exclusão de Colaboradores
+Excluir um colaborador da lista de forma rápida.
+➕ Adicionar Novos Times
+Cadastro de novos times através de um formulário dedicado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##🖥️ Demonstração
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Confira a aplicação em funcionamento: Link do Deploy (adicione aqui o link do seu projeto hospedado).<<<<<<<<
 
-### `npm test`
+##🚀 Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React: Biblioteca JavaScript para construção de interfaces.
+JavaScript (ES6+): Para lógica de programação.
+CSS: Estilização personalizada dos componentes.
+UUID: Para gerar identificadores únicos (usado para IDs).
 
-### `npm run build`
+##📚 O que eu aprendi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Durante o desenvolvimento do projeto Organo, foram trabalhados conceitos como:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Estrutura e Organização do Projeto
+   Criação de componentes reutilizáveis: Aprendi como criar e estruturar componentes para tornar o código mais modular e reutilizável.
+   Uso de props: Entendi como passar dados de um componente pai para seus filhos utilizando props.
+2. Manipulação de Estados com Hooks
+   useState:
+   Controlar o estado de listas de colaboradores e times.
+   Alterar o estado de elementos individuais, como favoritismo de colaboradores.
+   Atualizar a cor dos times dinamicamente.
+3. Funcionalidades Implementadas
+   Renderização Condicional: Renderizar os times somente quando há colaboradores associados.
+   Manipulação de eventos: Capturar eventos de formulário e inputs de cor para personalizar times.
+   Criação de IDs únicos com UUID, garantindo que cada colaborador e time tenha um identificador exclusivo.
+   Filtragem de listas: Filtrar colaboradores de acordo com o time selecionado.
