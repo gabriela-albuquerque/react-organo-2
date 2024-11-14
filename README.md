@@ -22,7 +22,7 @@ Cadastro de novos times através de um formulário dedicado.
 
 ##🖥️ Demonstração
 
-Confira a aplicação em funcionamento: Link do Deploy (adicione aqui o link do seu projeto hospedado).<<<<<<<<
+Confira a aplicação em funcionamento: https://react-organo-2-flax.vercel.app/
 
 ##🚀 Tecnologias Utilizadas
 
